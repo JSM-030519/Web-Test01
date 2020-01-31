@@ -1,3 +1,65 @@
-h1 {
-	color: red;
+@font-face {
+	font-family: SegoeUI; 
+	src: url("font.ttf");
 }
+
+body{
+	background-image: url("imageedit_1_9871416888.png");
+	background-size: fill;
+	background-repeat: no-repeat;
+	
+}
+
+h1 {
+	font-size: 50px;
+	color: #0059B3;
+	font-family: SegoeUI;
+	
+}
+
+h2{
+	font-family: SegoeUI;
+	font-size: 80px;
+}
+
+p{
+	font-size: 20px;
+	font-family: SegoeUI;
+	
+}
+
+footer{
+	font-size: 16px;
+	font-family: SegoeUI;
+	
+}
+
+div#container{
+	width: auto;
+	margin: 1px;
+	padding: 1px;
+}
+
+div#heading{
+	text-align: center;
+	margin: 1px;
+	padding: 1px;
+}
+
+div#content{
+	text-align: center;
+	margin-top: 100px;
+	padding: 1px;
+	line-height: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+div#footer{
+	text-align: center;
+	
+}
+
