@@ -4,9 +4,10 @@
 }
 
 body{
-	background-image: url("Screenshot_2.png");
-	background-size: cover;
+	background-image: url("imageedit_1_9871416888.png");
+	background-size: fill;
 	background-repeat: no-repeat;
+	
 }
 
 h1 {
@@ -48,14 +49,17 @@ div#heading{
 div#content{
 	text-align: center;
 	margin-top: 100px;
-	margin-right: 1100px;
 	padding: 1px;
 	line-height: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
 
 }
 
 div#footer{
 	text-align: center;
 	
-	margin-left: -1100px;
 }
+
